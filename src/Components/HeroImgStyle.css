@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+
+.hero {
+
+    background-image: url("../assets/BgImg.jpg");
+    height: 560px;
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+
+    font-size: 2.5vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 40vh;
+}
+
+.buttons .btn {
+    margin: 0.5vh;
+}
+
+.title {
+    font-family: 'Amatic SC';
+    display: flex;
+    justify-content: center;
+    padding-top: 1vh;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    padding-top: 5vh;
+}
+
+@media screen and (max-width:640px) {
+    .hero .content h1 {
+        font-size: 7vh;
+    }
+}
+    
+
+
